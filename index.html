@@ -1,15 +1,59 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <nav>
-        <a href="board.html">kang</a>
-        <a href="kth.html">kth</a>
-    </nav>
-    <h1>main branch입니다.</h1>
-</body>
+
+    <style>
+
+      * {
+        text-decoration: none;
+      }
+
+      header {
+        position: fixed;
+        z-index: 3;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+
+      header .title a {
+        color: black;
+      }
+
+      header .inner {
+        padding-top: 32px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      nav ul {
+        display: flex;
+        gap: 42px;
+        text-decoration: none;
+        margin-top: 45px;
+      }
+
+      nav ul a {
+        color: black;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a href="board.html">KANG</a></li>
+            <li><a href="kth.html">KTH</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <h1>Main Branch 입니다.</h1>
+  </body>
 </html>
